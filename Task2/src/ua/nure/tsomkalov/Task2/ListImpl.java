@@ -1,61 +1,179 @@
 package ua.nure.tsomkalov.Task2;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class ListImpl implements List {
 
-	private Object[] ar;
+	private class it implements Iterator{
+
+		int current=-1;
+		@Override
+		public void remove() {
+			ListImpl.this.remove(current);
+			current--;
+			hasNext();
+		}
+
+		@Override
+		public Object next() {
+			if (hasNext()){
+				return arr[++current];
+			}
+
+			return null;
+		}
+
+		@Override
+		public boolean hasNext() {
+			if (current + 1 < size()){
+				return true;
+			}
+			else{
+				current=-1;
+				return false;
+			}
+		}
+	}
+
+	private Object[] arr;
+
+	Iterator it=new it();
+
+	private void resize(){
+		arr = Arrays.copyOf(arr, arr.length+10);
+	}
+
+	public ListImpl(){
+		arr=new Object[10];
+	}
 
 	@Override
 	public void add(Object el) {
+		for (int i=0;;i++){
+			if (arr[i]==null){
+				arr[i]=el;
+				break;
+			}
+			if (i==arr.length-1){
+				resize();
+			}
+		}
 	}
 
 	@Override
 	public void addAll(List list) {
+		for (int i=0;i<list.size();i++){
+			add(list.get(i));
+		}
 	}
 
 	@Override
 	public Object[] toArray() {
-		return null;
+		return Arrays.copyOf(arr,size());
 	}
 
 	@Override
 	public void clear() {
+		arr=new Object[10];
 	}
 
 	@Override
 	public boolean contains(Object el) {
+		for (int i=0;i<size();i++){
+			if (arr[i].equals(el)) return true;
+		}
 		return false;
 	}
 
 	@Override
 	public Object get(int index) {
-		return null;
+		if (index<size()){
+			return arr[index];
+		}
+		else{
+			return null;
+		}
 	}
 
 	@Override
 	public int indexOf(Object el) {
-		return 0;
+		for (int i=0;i<size();i++){
+			if (arr[i].equals(el)){
+				return i;
+			}
+		}
+		return -1;
 	}
 
 	@Override
 	public Object remove(int j) {
-		return null;
+		Object res;
+		if (j<size()){
+			res=arr[j];
+			int length=arr.length-j-1;
+			System.arraycopy(arr,j+1,arr,j,length);
+		}
+		else{
+			res=null;
+		}
+
+		return res;
 	}
 
 	@Override
 	public boolean remove(Object el) {
+		for (int i=0;i<arr.length-1;i++){
+			if (arr[i]==el){
+				remove(i);
+				return true;
+			}
+		}
 		return false;
 	}
 
 	@Override
 	public int size() {
-		return 0;
+		int res=0;
+
+		for (int i=0;i<arr.length;i++){
+			if (arr[i]!=null){
+				res++;
+			}
+		}
+
+		return res;
 	}
 
 	@Override
 	public Iterator iterator() {
-		return null;
+		return it;
 	}
-	
+
+	@Override
+	public String toString() {
+		StringBuilder sb=new StringBuilder();
+		sb.append("[");
+		/*for (int i=0;i<arr.length;i++){
+			if (arr[i]!=null){
+				sb.append(arr[i]);
+				if (i+1!=arr.length && arr[i+1]!=null){
+					sb.append(", ");
+				}
+			}
+		}*/
+
+		for (int i=0;i<size();i++){
+			sb.append(arr[i]);
+			if (i<size()-1){
+				sb.append(", ");
+			}
+		}
+
+		sb.append("]");
+		return sb.toString();
+	}
+
 	public static void main(String[] args) {
 		System.out.println("~~~ list A B C");
 		System.out.println("~~~ Result: [A, B, C]");
@@ -97,7 +215,7 @@ public class ListImpl implements List {
 		System.out.println("~~~ Result: true");
 		System.out.println(list.contains("E"));
 
-		System.out.println("~~~ list.contains(�)");
+		System.out.println("~~~ list.contains(С)");
 		System.out.println("~~~ Result: false");
 		System.out.println(list.contains("C"));
 
