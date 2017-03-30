@@ -7,7 +7,7 @@ public class ListImpl implements List {
 
     private class it implements Iterator {
 
-        int current = -1;
+        private int current = -1;
 
         @Override
         public void remove() {
@@ -36,12 +36,18 @@ public class ListImpl implements List {
         }
     }
 
+    private int size = 0;
+
     private Object[] arr;
 
-    Iterator it = new it();
-
     private void resize() {
-        arr = Arrays.copyOf(arr, arr.length + 10);
+        Object[] res = new Object[size + 10];
+
+        for (int i = 0; i < size; i++) {
+            res[i] = arr[i];
+        }
+
+        arr = res;
     }
 
     public ListImpl() {
@@ -50,14 +56,11 @@ public class ListImpl implements List {
 
     @Override
     public void add(Object el) {
-        for (int i = 0; ; i++) {
-            if (arr[i] == null) {
-                arr[i] = el;
-                break;
-            }
-            if (i == arr.length - 1) {
-                resize();
-            }
+        if (size + 1 < arr.length) {
+            arr[size++] = el;
+        } else {
+            resize();
+            arr[size++] = el;
         }
     }
 
@@ -70,17 +73,24 @@ public class ListImpl implements List {
 
     @Override
     public Object[] toArray() {
-        return Arrays.copyOf(arr, size());
+        Object[] res = new Object[size];
+
+        for (int i = 0; i < size; i++) {
+            res[i] = arr[i];
+        }
+
+        return res;
     }
 
     @Override
     public void clear() {
         arr = new Object[10];
+        size = 0;
     }
 
     @Override
     public boolean contains(Object el) {
-        for (int i = 0; i < size(); i++) {
+        for (int i = 0; i < size; i++) {
             if (arr[i].equals(el)) return true;
         }
         return false;
@@ -88,7 +98,7 @@ public class ListImpl implements List {
 
     @Override
     public Object get(int index) {
-        if (index < size()) {
+        if (index < size) {
             return arr[index];
         } else {
             return null;
@@ -97,7 +107,7 @@ public class ListImpl implements List {
 
     @Override
     public int indexOf(Object el) {
-        for (int i = 0; i < size(); i++) {
+        for (int i = 0; i < size; i++) {
             if (arr[i].equals(el)) {
                 return i;
             }
@@ -108,10 +118,12 @@ public class ListImpl implements List {
     @Override
     public Object remove(int j) {
         Object res;
-        if (j < size()) {
+        if (j < size) {
             res = arr[j];
-            int length = arr.length - j - 1;
-            System.arraycopy(arr, j + 1, arr, j, length);
+            for (int i = j; i < size - 1; i++) {
+                arr[i] = arr[i + 1];
+            }
+            arr[size--] = null;
         } else {
             res = null;
         }
@@ -121,8 +133,8 @@ public class ListImpl implements List {
 
     @Override
     public boolean remove(Object el) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] == el) {
+        for (int i = 0; i < size; i++) {
+            if (arr[i].equals(el)) {
                 remove(i);
                 return true;
             }
@@ -132,20 +144,12 @@ public class ListImpl implements List {
 
     @Override
     public int size() {
-        int res = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != null) {
-                res++;
-            }
-        }
-
-        return res;
+        return size;
     }
 
     @Override
     public Iterator iterator() {
-        return it;
+        return new it();
     }
 
     @Override

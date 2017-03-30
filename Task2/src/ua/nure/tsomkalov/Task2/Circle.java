@@ -1,9 +1,9 @@
 package ua.nure.tsomkalov.Task2;
 
 public class Circle {
-    double x;
-    double y;
-    double r;
+    private double x;
+    private double y;
+    private double r;
 
     public Circle(double x, double y, double r) {
         this.r = r;
@@ -25,7 +25,12 @@ public class Circle {
     }
 
     public void print() {
-        System.out.println(String.format("Circle (%s, %s,%s)", x, y, r));
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Circle (%s, %s, %s)", x, y, r);
     }
 
     public static void main(String[] args) {

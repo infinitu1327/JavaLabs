@@ -1,5 +1,7 @@
 package ua.nure.tsomkalov.Task2;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_ADDPeer;
+
 public class Matrix {
     int rows;
     int cols;
@@ -56,14 +58,23 @@ public class Matrix {
     }
 
     public void print() {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print(ar[i][j] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println(this);
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                sb.append(ar[i][j]);
+                sb.append(" ");
+            }
+            sb.append("\n");
+        }
+
+        return sb.toString();
+    }
 
     public static void main(String[] args) {
         Matrix m = new Matrix(new double[][]{
