@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java" line="122" />
+    <bookmark url="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java" line="120" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c4ae19-3f89-4b4f-8e52-e3426afc78bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Demo.bat" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Demo.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/Demo.bat" afterPath="$PROJECT_DIR$/../Task1/src/Demo.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part1.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part10.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part10.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part2.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part4.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part5.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part6.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part7.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part8.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part8.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part9.java" afterPath="$PROJECT_DIR$/../Task1/src/ua/nure/tsomkalov/Task1/Part9.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java" afterPath="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java" afterPath="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +27,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,18 +49,18 @@
       <file leaf-file-name="ListImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="1033">
+              <caret line="137" column="30" lean-forward="false" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
                 <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
                 <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
                 <element signature="method#get#0;class#ListImpl#0" expanded="false" />
                 <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
                 <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
                 <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-                <element signature="method#size#0;class#ListImpl#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,8 +69,8 @@
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -67,7 +79,7 @@
       <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="330">
               <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding />
             </state>
@@ -77,9 +89,12 @@
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="824">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding>
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +102,7 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="396">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
@@ -97,58 +112,9 @@
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding>
-                <element signature="method#transpose#0;class#Matrix#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="373" column="37" lean-forward="false" selection-start-line="373" selection-start-column="37" selection-end-line="373" selection-end-column="37" />
-              <folding>
-                <element signature="method#indexOf#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#lastIndexOf#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#addAll#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
-                <element signature="method#listIterator#1;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#next#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#checkForComodification#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-                <element signature="class#ListItr#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#previous#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#set#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#add#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#subList#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;method#equals#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#equals#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#hashCode#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#removeRange#0;class#AbstractList#0" expanded="false" />
-                <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#rangeCheckForAdd#0;class#AbstractList#0" expanded="false" />
-                <element signature="method#SubList#0;class#SubList#0" expanded="false" />
-                <element signature="method#set#0;class#SubList#0" expanded="false" />
-                <element signature="method#get#0;class#SubList#0" expanded="false" />
-                <element signature="method#size#0;class#SubList#0" expanded="false" />
-                <element signature="method#add#0;class#SubList#0" expanded="false" />
-                <element signature="method#removeRange#0;class#SubList#0" expanded="false" />
-                <element signature="method#addAll#1;class#SubList#0" expanded="false" />
-                <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
-                <element signature="method#rangeCheck#0;class#SubList#0" expanded="false" />
-                <element signature="method#rangeCheckForAdd#0;class#SubList#0" expanded="false" />
-                <element signature="method#checkForComodification#0;class#SubList#0" expanded="false" />
-                <element signature="class#RandomAccessSubList#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="164">
+              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +134,7 @@
       <find>remove</find>
       <find>hasNe</find>
       <find>next</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +148,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Circle.java" />
         <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Demo.java" />
         <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/List.java" />
         <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Circle.java" />
-        <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java" />
         <option value="$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java" />
       </list>
     </option>
@@ -197,10 +164,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,9 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,13 +218,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Task2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -361,136 +328,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -505,15 +342,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -558,22 +386,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -596,12 +408,6 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -631,28 +437,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <list size="1">
@@ -695,36 +479,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.133125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -740,7 +524,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java</url>
-          <line>272</line>
+          <line>262</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -760,14 +544,75 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
             <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
             <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
             <element signature="method#get#0;class#ListImpl#0" expanded="false" />
             <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-            <element signature="method#size#0;class#ListImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
+            <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
+            <element signature="method#get#0;class#ListImpl#0" expanded="false" />
+            <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
+            <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
+            <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +644,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,45 +663,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding>
-            <element signature="method#transpose#0;class#Matrix#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8330">
-          <caret line="490" column="19" lean-forward="false" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="19" />
-          <folding>
-            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
-            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
             <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
             <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
             <element signature="method#get#0;class#ListImpl#0" expanded="false" />
             <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-            <element signature="method#size#0;class#ListImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,7 +706,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -891,32 +721,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8330">
-          <caret line="490" column="19" lean-forward="false" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="19" />
-          <folding>
-            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
-            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#transpose#0;class#Matrix#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,14 +736,14 @@
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
             <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
             <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
             <element signature="method#get#0;class#ListImpl#0" expanded="false" />
             <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-            <element signature="method#size#0;class#ListImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -958,7 +768,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -970,32 +783,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7701">
-          <caret line="490" column="19" lean-forward="false" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="19" />
-          <folding>
-            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
-            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="method#transpose#0;class#Matrix#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,14 +798,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
             <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
             <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
             <element signature="method#get#0;class#ListImpl#0" expanded="false" />
             <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-            <element signature="method#size#0;class#ListImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,178 +818,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8330">
-          <caret line="490" column="19" lean-forward="false" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="19" />
-          <folding>
-            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
-            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Downloads/Task2Stub/src/ua/nure/your_last_name/Task2/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/../../../Downloads/Task2Stub/src/ua/nure/your_last_name/Task2/List.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/../../Task2Stub/src/ua/nure/your_last_name/Task2/Iterator.java" />
+    <entry file="file://$PROJECT_DIR$/../../Task2Stub/src/ua/nure/your_last_name/Task2/List.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ListIterator.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Iterator.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../../../Downloads/Task2Stub/src/ua/nure/your_last_name/Task2/ListImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../Task2Stub/src/ua/nure/your_last_name/Task2/ListImpl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/AbstractList.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="396">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/List.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="373" column="37" lean-forward="false" selection-start-line="373" selection-start-column="37" selection-end-line="373" selection-end-column="37" />
-          <folding>
-            <element signature="method#indexOf#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#lastIndexOf#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#addAll#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
-            <element signature="method#listIterator#1;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#next#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#AbstractList#0" expanded="false" />
-            <element signature="class#ListItr#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#previous#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#set#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#add#0;class#ListItr#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#subList#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#equals#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#hashCode#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#removeRange#0;class#AbstractList#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#rangeCheckForAdd#0;class#AbstractList#0" expanded="false" />
-            <element signature="method#SubList#0;class#SubList#0" expanded="false" />
-            <element signature="method#set#0;class#SubList#0" expanded="false" />
-            <element signature="method#get#0;class#SubList#0" expanded="false" />
-            <element signature="method#size#0;class#SubList#0" expanded="false" />
-            <element signature="method#add#0;class#SubList#0" expanded="false" />
-            <element signature="method#removeRange#0;class#SubList#0" expanded="false" />
-            <element signature="method#addAll#1;class#SubList#0" expanded="false" />
-            <element signature="method#listIterator#0;class#SubList#0" expanded="false" />
-            <element signature="method#rangeCheck#0;class#SubList#0" expanded="false" />
-            <element signature="method#rangeCheckForAdd#0;class#SubList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#SubList#0" expanded="false" />
-            <element signature="class#RandomAccessSubList#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="844" column="30" lean-forward="false" selection-start-line="844" selection-start-column="26" selection-end-line="844" selection-end-column="30" />
+        <state relative-caret-position="824">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
-            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
-            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding>
-            <element signature="method#transpose#0;class#Matrix#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/nure/tsomkalov/Task2/ListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="1033">
+          <caret line="137" column="30" lean-forward="false" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#ListImpl#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
             <element signature="method#addAll#0;class#ListImpl#0" expanded="false" />
             <element signature="method#contains#0;class#ListImpl#0" expanded="false" />
             <element signature="method#get#0;class#ListImpl#0" expanded="false" />
             <element signature="method#indexOf#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#0;class#ListImpl#0" expanded="false" />
             <element signature="method#remove#1;class#ListImpl#0" expanded="false" />
-            <element signature="method#size#0;class#ListImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,9 @@
 package ua.nure.tsomkalov.Task1;
 
 public class Demo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("===Part1===");
-        Part1.main(new String[]{"34","18"});
+        Part1.main(new String[]{"34", "18"});
 
         System.out.println("===Part2===");
         Part2.main(new String[]{"123"});
@@ -24,7 +24,7 @@ public class Demo {
         Part7.main(new String[]{"5"});
 
         System.out.println("===Part8===");
-        Part8.main(new String[]{"3","5"});
+        Part8.main(new String[]{"3", "5"});
 
         System.out.println("===Part9===");
         Part9.main();

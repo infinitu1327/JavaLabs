@@ -5,27 +5,27 @@ public class Circle {
     double y;
     double r;
 
-    public Circle(double x,double y, double r){
-        this.r=r;
-        this.x=x;
-        this.y=y;
+    public Circle(double x, double y, double r) {
+        this.r = r;
+        this.x = x;
+        this.y = y;
     }
 
-    public void move(double dx, double dy){
-        x+=dx;
-        y+=dy;
+    public void move(double dx, double dy) {
+        x += dx;
+        y += dy;
     }
 
-    public boolean isInside(double x, double y){
-        return r>Math.sqrt(Math.pow((this.x-x),2)+Math.pow((this.y-y),2));
+    public boolean isInside(double x, double y) {
+        return r > Math.sqrt(Math.pow((this.x - x), 2) + Math.pow((this.y - y), 2));
     }
 
-    public boolean isInside(Circle c){
-        return r>Math.sqrt(Math.pow((this.x-c.x),2)+Math.pow((this.y-c.y),2))+c.r;
+    public boolean isInside(Circle c) {
+        return r > Math.sqrt(Math.pow((this.x - c.x), 2) + Math.pow((this.y - c.y), 2)) + c.r;
     }
 
-    public void print(){
-        System.out.println(String.format("Circle (%s, %s,%s)",x,y,r));
+    public void print() {
+        System.out.println(String.format("Circle (%s, %s,%s)", x, y, r));
     }
 
     public static void main(String[] args) {
