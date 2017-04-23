@@ -1,34 +1,49 @@
 package ua.nure.tsomkalov.Task3;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class WordContainer {
 
-	// use a container you want
-	private List<Word> words;
+    private ArrayList<Word> words;
 
-	private class Word {
+    private class Word {
 
-		public Word(String content) {
-			// ...
-		}
+        public Word(String content) {
+            this.content = content;
+            frequency=1;
+        }
 
-		private String content;
+        private String content;
 
-		private int frequency;
+        private int frequency;
 
-	}
+        @Override
+        public String toString() {
+            return content+":"+frequency;
+        }
+    }
 
-	public WordContainer() {
-		// ...
-	}
+    public WordContainer() {
+        words=new ArrayList<Word>();
+    }
 
-	public void add(String s) {
-		// ...
-	}
+    public void add(String s) {
+        for (Word word:words) {
+            if (word.content.equals(s)){
+                word.frequency++;
+                return;
+            }
+        }
+        words.add(new Word(s));
+    }
 
-	public void print() {
-		// ...
-	}
+    public void print() {
+        words.sort(Comparator.comparingInt(w->w.frequency));
 
+        for (Word word:words) {
+            System.out.println(word);
+        }
+    }
 }
