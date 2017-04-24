@@ -36,7 +36,7 @@ public class ListImpl implements List {
         }
     }
 
-    private int size = 0;
+    private int size;
 
     private Object[] arr;
 
@@ -56,12 +56,8 @@ public class ListImpl implements List {
 
     @Override
     public void add(Object el) {
-        if (size + 1 < arr.length) {
-            arr[size++] = el;
-        } else {
-            resize();
-            arr[size++] = el;
-        }
+        if (size + 1 > arr.length) resize();
+        arr[size++] = el;
     }
 
     @Override
@@ -90,14 +86,12 @@ public class ListImpl implements List {
 
     @Override
     public boolean contains(Object el) {
-        for (int i = 0; i < size; i++) {
-            if (arr[i].equals(el)) return true;
-        }
-        return false;
+        return indexOf(el) != -1;
     }
 
     @Override
     public Object get(int index) {
+
         if (index < size) {
             return arr[index];
         } else {
