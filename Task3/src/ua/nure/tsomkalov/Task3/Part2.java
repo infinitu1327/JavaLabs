@@ -14,11 +14,13 @@ public class Part2 {
     }
 
     private static String RemoveDuplicated() throws FileNotFoundException {
+        String text = Part1.load(FILE_NAME, ENCODING);
+
         StringBuilder sb = new StringBuilder();
         Scanner s = new Scanner(new File(FILE_NAME), ENCODING);
         while (s.hasNextLine()) {
             for (String word : s.nextLine().split(" ")) {
-                if (!IsDuplicated(word)) {
+                if (!hasDuplication(word)) {
                     sb.append(word).append(" ");
                 }
             }
@@ -28,13 +30,13 @@ public class Part2 {
         return sb.toString();
     }
 
-    private static boolean IsDuplicated(String word) {
-        String[] chars = word.split("");
-        for (int i = 0; i < chars.length; i++) {
-            for (int j = chars.length - 1; j > i; j--) {
-                if (chars[i].equals(chars[j])) return true;
-            }
+    private static boolean hasDuplication(String word) {
+        char[] letters = word.toCharArray();
+
+        for (char ch : letters) {
+            if (word.indexOf(ch) != word.lastIndexOf(ch)) return true;
         }
+
         return false;
     }
 }

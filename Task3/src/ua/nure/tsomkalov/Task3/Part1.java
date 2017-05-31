@@ -3,6 +3,8 @@ package ua.nure.tsomkalov.Task3;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Part1 {
 
@@ -10,35 +12,50 @@ public class Part1 {
 
     private static final String ENCODING = "Cp1251";
 
+    private static final String REG_EXP = "\\S{3,}";
+
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.print(ToAnotherCase());
+        System.out.print(toAnotherCase());
     }
 
-    private static String ToAnotherCase() throws FileNotFoundException {
+    static String load(String fileName, String encoding) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new File(fileName), encoding);
         StringBuilder sb = new StringBuilder();
-        Scanner s = new Scanner(new File(FILE_NAME), ENCODING);
-        while (s.hasNextLine()) {
-            for (String word : s.nextLine().split(" ")) {
-                if (word.length() > 3) {
-                    for (String ch : word.split("")) {
-                        if (IsUpper(ch)) {
-                            sb.append(ch.toLowerCase());
-                        } else {
-                            sb.append(ch.toUpperCase());
-                        }
-                    }
-                    sb.append(" ");
-                } else {
-                    sb.append(word).append(" ");
-                }
-            }
-            sb.append(System.lineSeparator());
+        while (scanner.hasNextLine())
+            sb.append(scanner.nextLine()).append("\n");
+        scanner.close();
+        return sb.toString().trim();
+    }
+
+    private static String toAnotherCase() throws FileNotFoundException {
+        StringBuffer sb = new StringBuffer();
+
+        String text = load(FILE_NAME, ENCODING);
+
+        Pattern pattern = Pattern.compile(REG_EXP);
+        Matcher matcher = pattern.matcher(text);
+
+        while (matcher.find()) {
+            String group = matcher.group();
+            matcher.appendReplacement(sb, toInvariantCase(group));
         }
+        matcher.appendTail(sb);
 
         return sb.toString();
     }
 
-    private static boolean IsUpper(String ch) {
-        return ch.toUpperCase().equals(ch);
+    private static String toInvariantCase(String word) {
+        StringBuilder sb = new StringBuilder();
+
+        char[] inputArray = word.toCharArray();
+        for (char ch : inputArray) {
+            if (Character.isUpperCase(ch)) {
+                sb.append(Character.toLowerCase(ch));
+            } else {
+                sb.append(Character.toUpperCase(ch));
+            }
+        }
+
+        return sb.toString();
     }
 }

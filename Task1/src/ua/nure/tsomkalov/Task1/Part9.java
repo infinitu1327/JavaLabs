@@ -1,7 +1,7 @@
 package ua.nure.tsomkalov.Task1;
 
 public class Part9 {
-    public static void main() {
+    public static void main(String[] args) {
         printArr(arr());
     }
 

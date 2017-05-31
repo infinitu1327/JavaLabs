@@ -11,7 +11,7 @@ public class Part8 {
     private static void print(char[][] table) {
         for (char[] row : table) {
             for (char sym : row) {
-                System.out.print(sym + " ");
+                System.out.print(sym);
             }
 
             System.out.println();

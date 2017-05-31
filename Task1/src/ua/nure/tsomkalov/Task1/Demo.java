@@ -27,7 +27,7 @@ public class Demo {
         Part8.main(new String[]{"3", "5"});
 
         System.out.println("===Part9===");
-        Part9.main();
+        Part9.main(new String[]{});
 
         System.out.println("===Part10===");
         Part10.main(new String[]{"5"});
