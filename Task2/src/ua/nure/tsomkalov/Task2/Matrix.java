@@ -3,9 +3,9 @@ package ua.nure.tsomkalov.Task2;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_ADDPeer;
 
 public class Matrix {
-    int rows;
-    int cols;
-    double[][] ar;
+    private int rows;
+    private int cols;
+    private double[][] ar;
 
     public Matrix(double[][] ar) {
         this.ar = ar;
