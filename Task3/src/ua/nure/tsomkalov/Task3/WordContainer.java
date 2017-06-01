@@ -26,15 +26,10 @@ class WordContainer {
 
         @Override
         public boolean equals(Object obj) {
-            if (obj == this) {
-                return true;
-            }
+            return obj == this ||
+                    !(obj == null || obj.getClass() != this.getClass()) &&
+                            ((Word) obj).content.equals(this.content);
 
-            if (obj == null || obj.getClass() != this.getClass()) {
-                return false;
-            }
-
-            return ((Word) obj).content.equals(this.content);
         }
 
         @Override
@@ -58,9 +53,8 @@ class WordContainer {
                 for (int j = i; j >= 0; j--) {
                     Word w2 = words.get(j);
                     if (w2.frequency < w.frequency) {
-                        Word temp = w;
                         words.set(i, w2);
-                        words.set(j, temp);
+                        words.set(j, w);
                     }
                 }
                 return;

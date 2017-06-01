@@ -15,7 +15,7 @@ public class Part1 {
     private static final String REG_EXP = "\\S{3,}";
 
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.print(toAnotherCase());
+        System.out.println(toAnotherCase());
     }
 
     static String load(String fileName, String encoding) throws FileNotFoundException {
@@ -28,7 +28,7 @@ public class Part1 {
     }
 
     private static String toAnotherCase() throws FileNotFoundException {
-        StringBuffer sb = new StringBuffer();
+        StringBuffer stringBuffer = new StringBuffer();
 
         String text = load(FILE_NAME, ENCODING);
 
@@ -37,25 +37,25 @@ public class Part1 {
 
         while (matcher.find()) {
             String group = matcher.group();
-            matcher.appendReplacement(sb, toInvariantCase(group));
+            matcher.appendReplacement(stringBuffer, toInvariantCase(group));
         }
-        matcher.appendTail(sb);
+        matcher.appendTail(stringBuffer);
 
-        return sb.toString();
+        return stringBuffer.toString();
     }
 
     private static String toInvariantCase(String word) {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
+        char[] letters = word.toCharArray();
 
-        char[] inputArray = word.toCharArray();
-        for (char ch : inputArray) {
-            if (Character.isUpperCase(ch)) {
-                sb.append(Character.toLowerCase(ch));
+        for (char letter : letters) {
+            if (Character.isUpperCase(letter)) {
+                stringBuilder.append(Character.toLowerCase(letter));
             } else {
-                sb.append(Character.toUpperCase(ch));
+                stringBuilder.append(Character.toUpperCase(letter));
             }
         }
 
-        return sb.toString();
+        return stringBuilder.toString();
     }
 }

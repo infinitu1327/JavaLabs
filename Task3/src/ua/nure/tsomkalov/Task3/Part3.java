@@ -18,54 +18,49 @@ public class Part3 {
     }
 
     private static String GetData(String type) throws FileNotFoundException {
-        Scanner s = new Scanner(new File(FILE_NAME), ENCODING);
-        StringBuilder sb = new StringBuilder();
+        Scanner scanner = new Scanner(new File(FILE_NAME), ENCODING);
+        StringBuilder stringBuilder = new StringBuilder();
 
-        while (s.hasNextLine()) {
-            for (String word : s.nextLine().split(" ")) {
-                String item;
+        while (scanner.hasNextLine()) {
+            for (String word : scanner.nextLine().split(" ")) {
+                String item = null;
                 switch (type) {
                     case "string":
                         item = GetStrings(word);
-                        if (item != null) {
-                            sb.append(item).append(" ");
-                        }
                         break;
                     case "int":
                         item = GetInts(word);
-                        if (item != null) {
-                            sb.append(item).append(" ");
-                        }
                         break;
                     case "double":
                         item = GetDoubles(word);
-                        if (item != null) {
-                            sb.append(item).append(" ");
-                        }
                         break;
+                }
+
+                if (item != null) {
+                    stringBuilder.append(item).append(" ");
                 }
             }
         }
 
-        return sb.toString();
-
+        return stringBuilder.toString();
     }
 
     private static String GetStrings(String word) {
-        if (GetDoubles(word) != null || GetInts(word) != null) {
-            return null;
-        } else {
+        if (GetDoubles(word) == null && GetInts(word) == null) {
             return word;
         }
+
+        return null;
     }
 
     private static String GetInts(String word) {
         try {
             Integer num = Integer.parseInt(word);
             return word;
-        } catch (Exception e) {
-            return null;
+        } catch (Exception ignored) {
         }
+
+        return null;
     }
 
     private static String GetDoubles(String word) {
@@ -73,11 +68,10 @@ public class Part3 {
             if (GetInts(word) == null) {
                 Double num = Double.parseDouble(word);
                 return word;
-            } else {
-                return null;
             }
-        } catch (Exception e) {
-            return null;
+        } catch (Exception ignored) {
         }
+
+        return null;
     }
 }

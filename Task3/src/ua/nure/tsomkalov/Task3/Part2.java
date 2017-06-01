@@ -16,25 +16,26 @@ public class Part2 {
     private static String RemoveDuplicated() throws FileNotFoundException {
         String text = Part1.load(FILE_NAME, ENCODING);
 
-        StringBuilder sb = new StringBuilder();
-        Scanner s = new Scanner(new File(FILE_NAME), ENCODING);
-        while (s.hasNextLine()) {
-            for (String word : s.nextLine().split(" ")) {
+        StringBuilder stringBuilder = new StringBuilder();
+        Scanner scanner = new Scanner(text);
+        while (scanner.hasNextLine()) {
+            for (String word : scanner.nextLine().split(" ")) {
                 if (!hasDuplication(word)) {
-                    sb.append(word).append(" ");
+                    stringBuilder.append(word);
                 }
+                stringBuilder.append(" ");
             }
-            sb.append(System.lineSeparator());
+            stringBuilder.append(System.lineSeparator());
         }
 
-        return sb.toString();
+        return stringBuilder.toString();
     }
 
     private static boolean hasDuplication(String word) {
         char[] letters = word.toCharArray();
 
-        for (char ch : letters) {
-            if (word.indexOf(ch) != word.lastIndexOf(ch)) return true;
+        for (char letter : letters) {
+            if (word.indexOf(letter) != word.lastIndexOf(letter)) return true;
         }
 
         return false;

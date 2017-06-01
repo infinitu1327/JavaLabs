@@ -12,7 +12,7 @@ public class Part5 implements Iterable<String>{
     private static final String ENCODING = "Cp1251";
 
     public Iterator<String> iterator(){
-        return new Part4.WordsIterator(FILE_NAME);
+        return new Parser(FILE_NAME,ENCODING).iterator();
     }
 
     public static void main(String[] args){

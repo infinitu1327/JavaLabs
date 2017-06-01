@@ -11,38 +11,9 @@ public class Part4 implements java.lang.Iterable<String> {
 
     private static final String ENCODING = "Cp1251";
 
-    private static final String REG_EXP = "[A-zА-яёіїє]+";
-
-    static class WordsIterator implements Iterator<String> {
-        private Matcher m;
-
-        WordsIterator(String fileName) {
-            try {
-                String str = Part1.load(fileName, ENCODING);
-                m = Pattern.compile(REG_EXP).matcher(str);
-            } catch (Exception e) {
-                throw new IllegalArgumentException();
-            }
-        }
-
-        @Override
-        public boolean hasNext() {
-            return m.find();
-        }
-
-        @Override
-        public String next() {
-            return m.group();
-        }
-
-        @Override
-        public void remove() {
-            throw new UnsupportedOperationException();
-        }
-    }
-
+    @Override
     public Iterator<String> iterator() {
-        return new WordsIterator(FILE_NAME);
+        return new Parser(FILE_NAME,ENCODING).iterator();
     }
 
     public static void main(String[] args) throws FileNotFoundException {
